@@ -150,7 +150,7 @@ def render_tape_html(tape, head):
 # ==========================================
 
 st.set_page_config(layout="wide")
-st.title("Máquina de Turing – Nueva Gramática Aritmética (Animada)")
+st.title("Máquina de Turing – Gramática Aritmética")
 
 entrada = st.text_input("Ingresa cadena:", "23+7*5-9")
 start = st.button("▶ Ejecutar Simulación", type="primary")
